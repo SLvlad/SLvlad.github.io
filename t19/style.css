@@ -1,0 +1,43 @@
+header{
+	border:2px solid blue;
+	height:30px;
+	}
+main{
+	border:2px solid blue;
+	height:350px;
+	width:60%;
+	float:left;
+	box-sizing:border-box;
+	}
+aside{
+	border:2px solid blue;
+	height:350px;
+	width:40%;
+	float:right;
+	box-sizing:border-box;
+	}
+footer{
+	border:2px solid blue;
+	height:40px;
+	float:left;
+	width:100%;
+	}
+body{
+	background-color:black;
+	color:white;
+	}
+img{
+	height:250px;
+	width:250px;
+	margin-left:20px;
+	}
+	p{
+		margin-left:300px;
+	}
+	.p1{
+		height:20px;
+		width:20px;
+		Margin:3px;
+	}
+		
+	
