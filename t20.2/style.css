@@ -1,0 +1,38 @@
+header{
+	background:linear-gradient(to right,white,whitesmoke,blue);
+	padding:25px;
+}
+a{
+	font-size:25px;
+	text-decoration:none;
+	color:black;
+	margin-left:10px;
+}
+a:hover{
+	color:red;                                                                                   
+}
+h1{
+	font-family:cursive;
+	color:white;
+}
+p{
+	font-family:cursive;
+	color:white;
+}
+body{
+	background-color:blue;
+	margin:0px;
+}
+input:valid{
+	background:lime;
+}
+input:invalid{
+	background:red;
+}
+#inp1{
+	background:linear-gradient(to right,purple,firebrick,red);
+	color:white;
+	padding:12px;
+	font-family:cursive;
+	border:none;
+}
