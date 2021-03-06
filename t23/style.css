@@ -1,0 +1,23 @@
+.vid1{
+	width:50%;
+	height:315px;
+	
+	float:left;
+	box-sizing:border-box;
+}
+.vid3{
+	width:50%;
+	height:315px;
+	
+	float:right;
+	box-sizing:border-box;
+}
+.vid2{
+	width:50%;
+	height:315px;
+	float:left;
+}
+footer{
+	float:left;
+	width:100%;
+}
