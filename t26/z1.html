@@ -1,0 +1,57 @@
+<html>
+<head>
+<style>
+.Lkrul{
+	width:300px;
+	height:300px;
+	background:url('Lkrul.png');
+	background-size:100%;
+	background-repeat:no-repeat;
+	display:inline-block;
+	margin-left:500px;
+	animation:Lkrul 3s linear 1s 1 alternate; 
+	transform-origin: center right;
+}
+.tyl{
+	width:250px;
+	height:400px;
+	float:center;
+	background:url('tyl.png');
+	background-size:100%;
+	background-repeat:no-repeat;
+	display:inline-block;
+	margin-top:300px;
+}
+.Rkrul{
+	width:300px;
+	height:300px;
+	float:center;
+	background:url('Rkrul.png');
+	background-size:100%;
+	background-repeat:no-repeat;
+	display:inline-block;
+	animatoin:Rkrul 3s linear 1s 1 alternate;
+	transform-origin: center right;	
+}
+@keyframes Lkrul{
+	0%{transform:rotateZ(0deg);}
+	50%{transform:rotateZ(40deg);}
+	100%{transform:rotateZ(-40deg);}
+}
+@keyframes Rkrul{
+	0%{transform:rotateZ(0deg);}
+	50%{transform:rotateZ(40deg);}
+	100%{transform:rotateZ(-40deg);}
+}
+</style>
+</head>
+<body>
+<div class="Lkrul">
+</div>
+<div class="tyl">
+</div>
+<div class="Rkrul">
+</div>
+
+</body>
+</html>
