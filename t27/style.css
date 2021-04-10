@@ -1,0 +1,44 @@
+header{
+	border:2px solid red;
+	height:50px;
+}
+.d1{
+	border:2px solid black;
+	height:200px;
+	background:url('kartun2.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100%;
+}
+main{
+	border:2px solid blue;
+	height:1050px;
+	width:70%;
+	float:left;
+}
+aside{
+	border:2px solid yellow;
+	height:1050px;
+	width:29%;
+	float:right;
+	background-color:#454545;
+}	
+a{
+	text-decoration:none;
+}
+h1{
+	margin-top:75px;
+}
+.d2{
+	height:200px;
+}
+body{
+	color:white;
+	background-color:black;
+}
+a{
+	color:white;
+}
+h2{
+	background-color:#454545;
+}
