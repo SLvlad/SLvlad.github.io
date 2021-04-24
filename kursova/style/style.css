@@ -1,0 +1,47 @@
+.d1{
+    height: 1200px;
+    width: 65%;
+    border: 2px solid red;
+    margin-left: 17.5%;
+    background-color:#ffffff;
+    margin-top: 0px;
+}
+header{
+    height: 50px;
+    width: 100%;
+    border: 2px solid blue;
+    background-color: purple;
+}
+body{
+    background: url('images/beach.jpg');
+    margin:0px;
+    background-attachment: fixed;
+}
+.d2{
+    height: 400px;
+    width: 100%; 
+    border: 2px solid black;
+}
+h1{
+    font-family: cursive;
+}
+main{
+    height: 600px;
+    width: 100%; 
+    border:2px solid yellow;
+}
+a{
+    color:white;
+    font-size: 200%;
+    text-decoration: none;
+}
+.main1{
+    margin-top: 5px;
+    margin-left:20px;
+    display: inline-block;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
