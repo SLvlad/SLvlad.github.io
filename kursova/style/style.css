@@ -1,5 +1,5 @@
 .d1{
-    height: 1200px;
+    height: 1150px;
     width: 65%;
     border: 2px solid red;
     margin-left: 17.5%;
@@ -8,14 +8,17 @@
 }
 header{
     height: 50px;
-    width: 100%;
+    width: 65%;
     border: 2px solid blue;
     background-color: purple;
+    position: fixed;
+    
 }
 body{
     background: url('images/beach.jpg');
     margin:0px;
     background-attachment: fixed;
+    opacity: 0.7;
 }
 .d2{
     height: 400px;
@@ -29,19 +32,103 @@ main{
     height: 600px;
     width: 100%; 
     border:2px solid yellow;
+    display: flex;
 }
 a{
     color:white;
     font-size: 200%;
     text-decoration: none;
 }
+a:hover{
+    background-color: blue;
+    padding: 7px;
+}
 .main1{
     margin-top: 5px;
     margin-left:20px;
     display: inline-block;
 }
+footer{
+    border: 2px solid pink;
+    height: 40px;
+    background-color: blueviolet;
+}
 .menu{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.d3{
+    margin-left: 250px;
+}
+.d4{
+    margin-left: 250px;
+    display: flex;
+}
+.d5{
+    margin-left: 250px; 
+}
+.d6{
+    margin-left: 500px;
+    margin-top:-110px;
+}
+.h1{
+    background-color: rgb(153, 255, 153);
+}
+span{
+    font-size: 130%;
+}
+input[type="submit"]{
+    width: 350px;
+    height: 40px;
+    margin-left: 405px;
+    margin-top: 50px;
+    font-size: 150%;
+    background: #7B68EE;
+}
+.d7{
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.d8{
+    margin-left: 500px;
+    margin-top: 10px;
+
+}
+.count2{
+    border: 2px solid red;
+    margin-left: 4px;
+    width: 350px;
+    height: 597px;
+}
+.s1{
+    float: right;
+    font-size: 100%;
+}
+.count2{
+    border: 2px solid red;
+    width: 350px;
+    height: 597px;
+    margin-left: 40px;
+}
+img[src="country1.jpg"]{
+    width: 350px;
+    height: 241px;
+}
+.count3{
+    border: 2px solid red;
+    width: 350px;
+    height: 597px;
+    margin-left: 40px;
+}
+img[src="country3.jpg"]{
+    width: 350px;
+    height: 241px;
+}
+input[type="button"]{
+    margin-left: 250px;
+    margin-top: 20px;
+    height: 35px;
+    background-color: #FF0000;
+    color: white;
 }
