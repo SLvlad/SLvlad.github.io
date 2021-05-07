@@ -1,5 +1,5 @@
 .d1{
-    height: 1150px;
+    height: 15150px;
     width: 65%;
     margin-left: 17.5%;
     border: 2px solid red;
@@ -47,8 +47,19 @@ h1{
 img{
     margin-right:50px ;
     border: 2px solid black;
+    height: 200px;
+    width: 300px;
 }
 h2{
-    margin-top: 140px;
+    margin-top: 170px;
     margin-left: 40px;
+}
+.h1{
+    margin-top: 400px;
+}
+.img1{
+    float: left;
+}
+.img2{
+    float: left;
 }
