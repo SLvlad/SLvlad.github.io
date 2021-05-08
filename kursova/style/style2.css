@@ -1,0 +1,100 @@
+.main1{
+    margin-top: 5px;
+    margin-left:20px;
+    display: inline-block;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    height: 50px;
+    width: 100%;
+    border: 2px solid blue;
+    background-color: purple;
+    position: fixed;
+    margin-top: -9px;
+    margin-left: -10px;
+}
+.knopmenu{
+    font-size: 200%;
+    text-decoration: none;
+    color: white;
+}
+.knopmenu:hover{
+    background-color: blue;
+    padding: 7px;
+}
+.d1{
+    height: 1370px;
+    width: 65%;
+    margin-left: 17.5%;
+    background-color:#ffffff;
+    margin-top: 0px;
+    border: 2px solid red;
+    display: inline-block;
+}
+img{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+}
+.h1{
+    margin-top: 100px;
+    margin-left: 120px;
+    font-family: cursive;
+}
+.h2{
+    margin-top: 100px;
+    margin-left: 130px;
+    font-family: cursive;
+}
+.dominic{
+    float: left;
+    margin-left: 100px;
+}
+.bolgar{
+    float: right;
+    margin-right:100px ;
+}
+.greece{
+    float: left;
+    margin-left: 100px;
+}
+.spain{
+    float: right;
+    margin-right: 100px;
+}
+.h3{
+    margin-left: 150px;
+}
+.h4{
+    margin-left: 150px;
+}
+body{
+    background: linear-gradient(to bottom,white, pink,pink, rgb(221, 115, 133));
+}
+.maldivi{
+    float: left;
+    margin-left: 100px;
+}
+.kipr{
+    float: right;
+    margin-right: 100px;
+}
+.h5{
+    margin-left: 130px;
+}
+.h6{
+    margin-left: 170px;
+}
+footer{
+    height: 40px;
+    background-color: blueviolet;
+    margin-top: -50px;
+}
+.a1{
+    color:black;
+    text-decoration: none;
+}

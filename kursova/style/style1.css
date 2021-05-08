@@ -23,6 +23,7 @@ header{
     background-color: purple;
     position: fixed;
     margin-top: -30px;
+    margin-left: -10px;
 }
 .menu{
     display: flex;
