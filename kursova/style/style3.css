@@ -41,3 +41,13 @@ header{
 p{
     font-size: 130%;
 }
+footer{
+    height: 40px;
+    background-color: blueviolet;
+    margin-top: -10px;
+    color: white;
+    width: 100%;
+}
+body{
+    margin: 0px;
+}
