@@ -1,0 +1,7 @@
+th,td{
+    border: 1px solid grey;
+    text-align: center;
+}
+.gray{
+    background: rgb(235, 235, 235);
+}
