@@ -1,0 +1,14 @@
+
+
+<div class="tovar" v-for="tovar in $root.content">
+    <div class="img"><img v-bind:src="tovar.img" class="image" alt=""></div>
+    <div class="riht_side">
+        <div class="name ram x">{{ tovar.name }}</div>
+        <div class="developer ram x"><b>Виробник :  {{ tovar.developer }}</b></div>
+        
+            <div class="price ram x"><b>Ціна : </b> {{ tovar.price }} грн.</div>
+            <div class="reviews ram x"><b>Відгуків : </b>{{ tovar.reviews }}</div>
+        
+    </div>
+</div>
+
