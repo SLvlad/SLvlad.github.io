@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Меню з пошуком</title>
+  <style>
+    /* Стилі для меню */
+    .menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    .menu li {
+      float: left;
+    }
+
+    .menu li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .menu li a:hover {
+      background-color: #111;
+    }
+
+    /* Стилі для пошукової панелі */
+    .search-container {
+      float: right;
+    }
+
+    .search-container input[type=text] {
+      padding: 6px;
+      margin-top: 8px;
+      font-size: 17px;
+      border: none;
+      background-color: #f2f2f2;
+      border-radius: 4px;
+    }
+
+    .search-container button {
+      padding: 6px 10px;
+      margin-top: 8px;
+      background: #ddd;
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .search-container button:hover {
+      background: #ccc;
+    }
+
+    /* Додаткові стилі для меню */
+    .menu li.active a {
+      background-color: #000;
+    }
+
+    .menu li.disabled a {
+      opacity: 0.6;
+      pointer-events: none;
+    }
+
+    /* Додаткові стилі для логотипу */
+    .logo {
+      float: left;
+      margin-right: 20px;
+    }
+
+    .logo img {
+      width: 50px;
+      height: 50px;
+    }
+
+    /* Додаткові стилі для меню в чорних відтінках */
+    body {
+      background-color: #000;
+    }
+
+    .menu li a {
+      background-color: #333;
+    }
+
+    .menu li a:hover {
+      background-color: #111;
+    }
+
+    .search-container input[type=text] {
+      background-color: #111;
+      color: #fff;
+    }
+
+    .search-container button {
+      background-color: #111;
+      color: #fff;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="your-logo.png" alt="Логотип">
+  </div>
+  <ul class="menu">
+    <li><a href="#" onclick="setActiveMenuItem(this)">Пункт 1</a></li>
+    <li><a href="#" onclick="setActiveMenuItem(this)">Пункт 2</a></li>
+    <li><a href="#" onclick="setActiveMenuItem(this)">Пункт 3</a></li>
+    <li><a href="#" onclick="disableMenuItem(this)">Пункт 4</a></li>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Пошук...">
+      <button type="button" onclick="searchMenu()" style="background-color: #ddd; color: white; padding: 6px 10px; border: none; cursor: pointer; border-radius: 4px; background-color: #4CAF50; transition: transform 0.3s;">Шукати</button>
+    </div>
+  </ul>
+  
+  <style>
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    background-color: #999;
+  }
+  </style>
+  
+  <script>
+    function searchMenu() {
+      var input = document.getElementById("search-input").value.toLowerCase();
+      var menuItems = document.querySelectorAll(".menu li a");
+      for (var i = 0; i < menuItems.length; i++) {
+        var menuItem = menuItems[i];
+        if (menuItem.innerHTML.toLowerCase().indexOf(input) > -1) {
+          menuItem.style.display = "";
+        } else {
+          menuItem.style.display = "none";
+        }
+      }
+    }
+
+    function setActiveMenuItem(element) {
+      var menuItems = document.querySelectorAll(".menu li a");
+      for (var i = 0; i < menuItems.length; i++) {
+        menuItems[i].classList.remove("active");
+      }
+      element.classList.add("active");
+    }
+
+    function disableMenuItem(element) {
+      element.classList.add("disabled");
+    }
+  </script>
+</body>
+</html>
