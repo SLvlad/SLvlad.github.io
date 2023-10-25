@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Збереження в LocalStorage</title>
+</head>
+<body>
+    <input type="text" id="myInput" placeholder="Введіть текст">
+    
+    <script>
+        // Отримуємо посилання на input-елемент
+        var inputElement = document.getElementById('myInput');
+
+        // Перевіряємо, чи є вже збережені дані в LocalStorage
+        if (localStorage.getItem('savedValue')) {
+            inputElement.value = localStorage.getItem('savedValue');
+        }
+
+        // Додаємо обробник події input для відслідковування змін у полі вводу
+        inputElement.addEventListener('input', function() {
+            // Зберігаємо значення в LocalStorage
+            localStorage.setItem('savedValue', inputElement.value);
+        });
+    </script>
+</body>
+</html>
