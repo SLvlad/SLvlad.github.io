@@ -1,0 +1,35 @@
+.tovari{
+    width: 80%;
+    height: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tovar{
+    border:1px solid  green;
+    margin: 5px;
+    width:200px;
+    overflow: hidden;
+    height: 300px;
+}
+.modal_main{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.793);
+    position: absolute;
+    top: 0px;
+    left:0px;
+    display:none;
+}
+.modal_order{
+    min-width: 60vw;
+    height: 90vh;
+    border: 1px solid red;
+    background-color: rgb(77, 255, 0);
+    
+    z-index: 999;
+    position: absolute;
+    top: 5vh;
+    left: 20vw;
+}
