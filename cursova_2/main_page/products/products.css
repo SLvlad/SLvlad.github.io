@@ -1,0 +1,113 @@
+.tovari{
+    width: 80%;
+    height: 800px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 38px;
+}
+.tovar{
+    border:1px solid black;
+    margin: 10px;
+    width:300px;
+    overflow: hidden;
+    height: 550px;
+}
+.modal_main{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.793);
+    position: absolute;
+    top: 0px;
+    left:0px;
+    display:none;
+}
+.modal_order{
+    min-width: 60vw;
+    height: 90vh;
+    border: 1px solid red;
+    background-color: rgb(77, 255, 0);
+    z-index: 999;
+    position: absolute;
+    top: 5vh;
+    left: 20vw;
+}
+
+.bookmarkBtn {
+    width: 110px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: .3s;
+    overflow: hidden;
+  }
+  
+  .IconContainer {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(to bottom, rgb(2, 5, 33),rgb(0, 10, 43));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 0;
+    transition-duration: 0.3s;
+  }
+  
+  .icon {
+    border-radius: 1px;
+  }
+  
+  .buy {
+    height: 1px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    z-index: 1;
+    transition-duration: .3s;
+    font-size: 1.04em;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  
+  .bookmarkBtn:hover .IconContainer {
+    width: 90px;
+    border-radius: 40px;
+    transition-duration: 0.3s;
+    margin-left: 10px;
+  }
+  
+  .bookmarkBtn:hover .buy {
+    transform: translate(10px);
+    width: 0;
+    font-size: 0;
+    transition-duration: 0.3s;
+  }
+  
+  .bookmarkBtn:active {
+    transform: scale(0.95);
+    transition-duration: 0.3s;
+  }
+
+.dropdown{
+  width: 112px;
+}
+
+.img_tovari{
+  height: 325px;
+  width: 300px;
+}
+
+.korzina{
+  height: 20px;
+  width: 20px;
+}
+.nav{
+  z-index:100;
+}
